@@ -1,0 +1,37 @@
+@font-face
+{
+font-family:'ZapfinoExtra';
+src:url('.. /fonts/Zapfino/ZapfinoExtraLTPro.otf');
+}
+
+#header, #menu, #content, #footer{
+	margin:6px  auto;
+	width: 1000px;
+}
+	
+#header{
+	height: 120px;
+}
+
+#menu{
+	border: 0px none;
+}
+
+	#menu ul{
+		list-style-type: none;
+	}
+	
+		#menu ul li{
+			display: inline;
+		}
+		
+			#menu ul li a{
+				display: inline;
+				padding: 10px 16px;
+				margin-left: 20px;
+				text-decoration: none;
+				color: #000000;
+				border-top: 1px solid #333333;
+				border-bottom: 1px solid #333333;
+				font-family:'ZapfinoExtra';
+			}
